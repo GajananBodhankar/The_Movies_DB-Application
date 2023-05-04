@@ -15,7 +15,7 @@ import Transfer from './RN_training/ChepAssignment/Transfer';
 
 import RedStore from './RN_training/Assignment/Redux/Store';
 import { MovieStore } from './RN_training/TheMovieDB/Redux/MovieStore';
-import MovieNavg from './RN_training/TheMovieDB/MovieNavg';
+import MovieNavg from './TheMovieDB/MovieNavg';
 export const User1 = createContext({
   mainData: [
     {name: 'Food', amount: 0},
