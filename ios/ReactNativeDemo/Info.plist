@@ -52,6 +52,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSLocationWhenInUseUsageDescription</key>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
@@ -79,5 +80,13 @@
 <string>Your message to user when the photo library is accessed for the first time</string>
 <key>NSMicrophoneUsageDescription</key>
 <string>Your message to user when the microphone is accessed for the first time</string>
+
 </dict>
+<key>NSBonjourServices</key>
+<array>
+  <string>_googlecast._tcp</string>
+  <string>_CC1AD845._googlecast._tcp</string>
+</array>
+<key>NSLocalNetworkUsageDescription</key>
+<string>${PRODUCT_NAME} uses the local network to discover Cast-enabled devices on your WiFi network.</string>
 </plist>

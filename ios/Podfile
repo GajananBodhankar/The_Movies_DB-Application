@@ -26,6 +26,11 @@ target 'ReactNativeDemo' do
   pod 'Firebase', :modular_headers => true
   pod 'FirebaseCore', :modular_headers => true
   pod 'GoogleUtilities', :modular_headers => true
+  pod 'react-native-geolocation', path: '../node_modules/@react-native-community/geolocation'
+  pod 'RealmJS', :path => '../node_modules/realm'
+  pod 'GCDWebServer'
+  # If you're using autolinking, this line might not be needed
+
   RCT_NEW_ARCH_ENABLED=1
   # $RNFirebaseAsStaticFramework = true
   # Flags change depending on the env values.

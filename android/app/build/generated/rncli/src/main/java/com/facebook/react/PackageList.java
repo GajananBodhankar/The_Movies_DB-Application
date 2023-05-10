@@ -15,20 +15,34 @@ import java.util.ArrayList;
 import com.oblador.vectoricons.VectorIconsPackage;
 // @react-native-async-storage/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// @react-native-community/geolocation
+import com.reactnativecommunity.geolocation.GeolocationPackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-community/viewpager
+import com.reactnativecommunity.viewpager.RNCViewPagerPackage;
+// react-native-ble-manager
+import it.innove.BleManagerPackage;
 // react-native-camera
 import org.reactnative.camera.RNCameraPackage;
+// react-native-geolocation-service
+import com.agontuk.RNFusedLocation.RNFusedLocationPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-image-picker
 import com.imagepicker.ImagePickerPackage;
+// react-native-pager-view
+import com.reactnativepagerview.PagerViewPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// realm
+import io.realm.react.RealmReactPackage;
+// react-native-flipper
+import com.facebook.flipper.reactnative.FlipperPackage;
 
 public class PackageList {
   private Application application;
@@ -76,13 +90,20 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new VectorIconsPackage(),
       new AsyncStoragePackage(),
+      new GeolocationPackage(),
       new RNCMaskedViewPackage(),
+      new RNCViewPagerPackage(),
+      new BleManagerPackage(),
       new RNCameraPackage(),
+      new RNFusedLocationPackage(),
       new RNGestureHandlerPackage(),
       new ImagePickerPackage(),
+      new PagerViewPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
-      new RNScreensPackage()
+      new RNScreensPackage(),
+      new RealmReactPackage(),
+      new FlipperPackage()
     ));
   }
 }
